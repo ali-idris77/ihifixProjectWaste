@@ -1,0 +1,4 @@
+{"email":"mario@gmail.com","username":"mario","password":"$2b$10$ugnFNCr59wtA5qgk6J4d2O5M.UdLSzFURIDSePlmh.n6EA9mKdtRu","createdAt":{"$$date":1748129194925},"role":"seller","_id":"KeCaQ9JCVMu57yGy"}
+{"email":"rafel123@gmail.com","username":"rafael","password":"$2b$10$6mP4247MRfCI8eTJlBt7TeHaX.dcxyrSpsuvGwPcYsEkmGXwIMjRq","createdAt":{"$$date":1748100879441},"role":"buyer","_id":"yUKSxq0oIFBCLwuR"}
+{"$$indexCreated":{"fieldName":"email","unique":true,"sparse":false}}
+{"email":"waka@gmail.com","username":"waka","password":"$2b$10$XOvQKNKtQXLbJbrJE1QsduSZHNjnWINkvdhkRa4nlI./KeCE9TC.W","createdAt":{"$$date":1748214352792},"role":"seller","_id":"8hntYjKcUI8fvOgy"}
