@@ -1,0 +1,91 @@
+
+    <style>
+        body{
+            display: grid;
+            place-content: center;
+        }
+    .done{
+        display: none;
+    }
+    .show{
+        display: flex;
+    }
+    input, textarea{
+      border: 2px #aaa solid;
+      width: 350px;
+      height: 3rem;
+      font-size: 1.1rem;
+      padding:20px 10px;
+      color: #aaa;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      outline: none;
+      border-radius: 10px;
+    }
+    h1{
+        text-align: center;
+    }
+    button{
+        padding: 15px 10px;
+        outline: none;
+        border: none;
+        background: #223a22;
+        width: 150px;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .profile-info, .profile-form{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom:20px;
+        justify-content: center;
+    }
+    .profile-info input , .profile-info textarea{
+        cursor: default;
+    }
+    .form-field{
+        margin-bottom:20px;
+    }
+    #edit{
+        margin-top: 20px;
+    }
+    </style>
+        <div class="profile-info">
+            <h1>My Profile</h1>
+ <input type="text" value=""  readonly>    
+ <input type="text" value=""  readonly>    
+ <input type="text" value=""  readonly >    
+ <input type="text" value=""  readonly >    
+ <input type="text" value=""  readonly >    
+ <textarea type="text" value="" readonly ></textarea>    
+<button id="edit">edit profile</button>
+</div>
+    <div class="profile-form">
+        <form action="" id="user" class="done">
+            <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required></div>
+            <div class="form-field">
+                <label for="company">company Name</label>
+                <input type="text" id="company" name="company" required></div>
+            <div class="form-field">
+                <label for="level">Position In Company</label>
+                <input type="text" id="level" name="level" required></div>
+            <div class="form-field">
+                <label for="tel">Phone no.</label>
+                <input type="text"  id="tel"name="tel" required></div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required></div>
+            <div class="form-field">
+                 <label for="address">Home Address</label>
+                <textarea type="text" id="address" name="address" required></textarea></div>
+                <button>save</button>
+        </form>
+    </div>
+    <script src="./js/profile.js"></script>
+
